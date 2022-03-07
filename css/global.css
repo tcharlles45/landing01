@@ -1,0 +1,13 @@
+header,
+body {
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
