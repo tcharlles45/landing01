@@ -39,6 +39,7 @@
   padding: 20px 40px;
   text-align: center;
   min-width: 230px;
+  max-width: 230px;
 }
 
 .provas-item img {
@@ -60,3 +61,30 @@
   font-weight: 700;
   word-break: keep-all;
 }
+
+/*responsivo*/
+
+@media (max-width: 1200px) {
+  .provas-items {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 900px) {
+  .provas {
+    padding-top: 40px;
+  }
+  .provas-items {
+    gap: 20px;
+    margin: 20px;
+  }
+}
+@media (max-width: 550px) {
+  .provas {
+    padding: 20px;
+  }
+  .provas-items {
+    justify-content: center;
+  }
+}
+

@@ -25,11 +25,12 @@
 
 .advice-item {
   background-color: #ffffff;
-  padding: 40px 40px 0 40px;
   max-width: 230px;
+  padding-bottom: 0;
 }
 
 .advice-item h2 {
+  padding: 30px 30px 0 30px;
   font-size: 16px;
   line-height: 24px;
   font-weight: 700;
@@ -39,21 +40,41 @@
 
 .advice-item p {
   color: #737373;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
   display: flex;
+  padding: 0 30px 0 30px;
 }
 
 .advice-img {
-  display: flex;
-  width: 230px;
-  height: 140px;
-  padding: 0;
-  justify-content: flex-start;
+  max-width: 230px;
+  max-height: 160px;
 }
 
 .advice-img img {
-  padding: 0px;
-  margin: 0px;
+  width: 100%;
 }
 
 /*CAIR NA MISSAO DE TENTAR ACERTAR AS IMAGENS NO FIM DA CAIXA. TENTEI AGORA COM DIV DENTRO, MAS NAO FAZ SENTIDO ESSE TRABALHO TODO, TALVEZ SEJA MELHOR REVERTER PARA FORA DAS DIVS AS IMAGENS E TENTAR NOVAMNETE. */
+
+/*RESPONSIVO*/
+
+@media (max-width: 1050px) {
+  .advice {
+    padding-top: 40px;
+  }
+
+  .advice-items {
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 450px) {
+  .advice-item h2 {
+    margin-bottom: 10px;
+  }
+  .advice-item p {
+    padding-top: 10px;
+  }
+}
