@@ -16,3 +16,15 @@ img {
   max-width: 1050px;
   margin: 0 auto;
 }
+
+h3 {
+  font-size: 40px;
+  line-height: 57px;
+  color: #ffffff;
+}
+
+p {
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+}

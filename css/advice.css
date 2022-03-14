@@ -1,0 +1,57 @@
+.advice-bg {
+  background-color: #252b42;
+  padding-bottom: 100px;
+}
+
+.advice {
+  text-align: center;
+  padding: 40px;
+}
+
+.advice h3 {
+  margin-bottom: 10px;
+}
+
+.advice p {
+  max-width: 520px;
+  margin: 0 auto;
+}
+
+.advice-items {
+  display: flex;
+  gap: 0 34px;
+  min-width: 230px;
+}
+
+.advice-item {
+  background-color: #ffffff;
+  padding: 40px 40px 0 40px;
+  max-width: 230px;
+}
+
+.advice-item h2 {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #252b42;
+  margin-bottom: 10px;
+}
+
+.advice-item p {
+  color: #737373;
+  margin-bottom: 40px;
+  display: flex;
+}
+
+.advice-img {
+  display: flex;
+  width: 230px;
+  height: 140px;
+  padding: 0;
+  justify-content: flex-start;
+}
+
+.advice-img img {
+  padding: 0px;
+  margin: 0px;
+}
