@@ -60,6 +60,22 @@
   margin-top: 6px;
 }
 
+/*UNDER SECTION*/
+
+.contact-2 {
+  display: flex;
+  margin-top: 100px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contact-text h2 {
+  color: #ffffff;
+  font-size: 24px;
+  line-height: 32px;
+  margin-bottom: 16px;
+}
+
 /*RESPONSIVO*/
 
 @media (max-width: 1050px) {
@@ -71,6 +87,21 @@
     background-color: #00a0c1;
     padding: 53px;
   }
+
+  .contact-2 {
+    margin: 80px 20px 20px 20px;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+  .contact-text {
+    margin-bottom: 20px;
+  }
+
+  .button {
+    margin: 0 auto;
+  }
+
 }
 
 @media (max-width: 500px) {
