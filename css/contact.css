@@ -81,7 +81,7 @@
 @media (max-width: 1050px) {
   .contact-box {
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 10px;
   }
   .contact-items:nth-child(2) {
     background-color: #00a0c1;
