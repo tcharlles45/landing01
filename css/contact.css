@@ -1,0 +1,81 @@
+.contact {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.contact p {
+  margin-top: 20px;
+}
+
+.contact-box {
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-items {
+  background-color: #ffffff;
+  padding: 60px;
+  text-align: center;
+}
+
+.contact-items img {
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+
+.contact-items p {
+  font-size: 14px;
+  line-height: 24px;
+  color: #252b42;
+  font-weight: 600;
+  margin-top: 6px;
+}
+
+.contact-items h2 {
+  font-size: 16px;
+  line-height: 24px;
+  color: #252b42;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.contact-items:nth-child(2) {
+  background-color: #00a0c1;
+  padding: 100px 80px 100px 80px;
+}
+
+.contact-items:nth-child(2) img {
+  margin-bottom: 20px;
+}
+
+.contact-items:nth-child(2) h2 {
+  color: #ffffff;
+}
+
+.contact-items:nth-child(2) p {
+  color: #ffffff;
+  margin-top: 6px;
+}
+
+/*RESPONSIVO*/
+
+@media (max-width: 1050px) {
+  .contact-box {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .contact-items:nth-child(2) {
+    background-color: #00a0c1;
+    padding: 53px;
+  }
+}
+
+@media (max-width: 500px) {
+  .contact p {
+    margin: 20px;
+    margin-bottom: 0px;
+  }
+}

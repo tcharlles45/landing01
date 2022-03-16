@@ -22,3 +22,32 @@
   border-radius: 37px;
   border: 2px solid #ffffff;
 }
+
+.btn03 {
+  text-transform: uppercase;
+  background-color: none;
+  padding: 15px 30px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #FFA62B;
+  border-radius: 4px;
+  border: 2px solid #FFA62B;
+}
+
+
+.btn04 {
+  text-transform: uppercase;
+  background-color: none;
+  padding: 15px 30px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+  border-radius: 4px;
+  border: 2px solid #ffffff;
+}
