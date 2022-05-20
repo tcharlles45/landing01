@@ -58,7 +58,7 @@
   line-height: 30px;
   color: #ffffff;
   font-weight: 500;
-  padding: 35px 0px;
+  padding: 24px 0px;
   max-width: 520px;
 }
 
@@ -141,13 +141,12 @@
 
 @media (max-width: 550px) {
   .header-topo {
-    justify-content: center;
+    justify-content: left;
   }
   .intro {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    text-align: center;
+    flex-direction: column;
+    flex-wrap: rap;
     margin-bottom: 60px;
   }
   .intro h2 {
